@@ -1,0 +1,611 @@
+INFO - 2023-03-18 16:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-18 16:44:00 --> Argument 1 passed to number_to_currency() must be of the type float, string given, called in C:\xampp\htdocs\diby-leather\app\Views\guest\home\index.php on line 145
+in SYSTEMPATH\Helpers\number_helper.php on line 113.
+ 1 APPPATH\Views\guest\home\index.php(145): number_to_currency('WEDF', 'IDR')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/home/index', [], true)
+ 5 APPPATH\Controllers\Guest\Home.php(55): view('guest/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Home->beranda()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 16:46:52 --> Argument 1 passed to number_to_currency() must be of the type float, string given, called in C:\xampp\htdocs\diby-leather\app\Views\guest\home\index.php on line 145
+in SYSTEMPATH\Helpers\number_helper.php on line 113.
+ 1 APPPATH\Views\guest\home\index.php(145): number_to_currency('WEDF', 'IDR')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/home/index', [], true)
+ 5 APPPATH\Controllers\Guest\Home.php(55): view('guest/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Home->beranda()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 16:48:33 --> Argument 1 passed to number_to_currency() must be of the type float, string given, called in C:\xampp\htdocs\diby-leather\app\Views\guest\home\index.php on line 145
+in SYSTEMPATH\Helpers\number_helper.php on line 113.
+ 1 APPPATH\Views\guest\home\index.php(145): number_to_currency('WEDF', 'IDR')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/home/index', [], true)
+ 5 APPPATH\Controllers\Guest\Home.php(55): view('guest/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Home->beranda()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 16:48:37 --> Argument 1 passed to number_to_currency() must be of the type float, string given, called in C:\xampp\htdocs\diby-leather\app\Views\guest\home\index.php on line 145
+in SYSTEMPATH\Helpers\number_helper.php on line 113.
+ 1 APPPATH\Views\guest\home\index.php(145): number_to_currency('WEDF', 'IDR')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/home/index', [], true)
+ 5 APPPATH\Controllers\Guest\Home.php(55): view('guest/home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Home->beranda()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-18 16:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 16:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 16:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 16:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 16:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 16:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 16:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 16:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 16:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-18 16:51:31 --> Argument 1 passed to number_to_currency() must be of the type float, string given, called in C:\xampp\htdocs\diby-leather\app\Views\admin\barang\index.php on line 45
+in SYSTEMPATH\Helpers\number_helper.php on line 113.
+ 1 APPPATH\Views\admin\barang\index.php(45): number_to_currency('WEDF', 'IDR')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('admin/barang/index', [], true)
+ 5 APPPATH\Controllers\Admin\Barang.php(30): view('admin/barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-18 16:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 16:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 16:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-18 16:53:19 --> mysqli_sql_exception: Unknown column 'gambar' in 'field list' in C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `barang`...', 0)
+#1 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `barang`...')
+#2 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `barang`...')
+#3 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2462): CodeIgniter\Database\BaseConnection->query('UPDATE `barang`...', Array, false)
+#4 C:\xampp\htdocs\diby-leather\app\Controllers\Admin\Barang.php(141): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Admin\Barang->add()
+#6 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+#7 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diby-leather\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-18 16:53:19 --> Unknown column 'gambar' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2462): CodeIgniter\Database\BaseConnection->query('UPDATE `barang` SET `gambar` = :gambar:, `updated_by` = :updated_by:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Controllers\Admin\Barang.php(141): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Barang->add()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Barang))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-18 17:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-18 17:05:05 --> Argument 1 passed to number_to_currency() must be of the type float, string given, called in C:\xampp\htdocs\diby-leather\app\Views\guest\katalog\index.php on line 67
+in SYSTEMPATH\Helpers\number_helper.php on line 113.
+ 1 APPPATH\Views\guest\katalog\index.php(67): number_to_currency('WEDF', 'IDR')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/index', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(31): view('guest/katalog/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-18 17:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-18 17:06:17 --> Argument 1 passed to number_to_currency() must be of the type float, string given, called in C:\xampp\htdocs\diby-leather\app\Views\guest\katalog\detail.php on line 162
+in SYSTEMPATH\Helpers\number_helper.php on line 113.
+ 1 APPPATH\Views\guest\katalog\detail.php(162): number_to_currency('WEDF', 'IDR')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('asdfgh')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-18 17:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-18 17:07:43 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Instagram.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 17:07:43 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Facebook.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 17:07:44 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Lazada.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 17:07:44 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Shopee.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-18 17:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-18 17:07:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Tokopedia.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-18 17:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-18 17:11:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Instagram.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 17:11:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Facebook.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 17:11:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Lazada.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 17:11:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Shopee.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 17:11:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Tokopedia.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-18 17:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 17:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-18 17:29:23 --> mysqli_sql_exception: Table 'diby.gambar' doesn't exist in C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `barang`...', 0)
+#1 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `barang`...')
+#2 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `barang`...')
+#3 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `barang`...', Array, false)
+#4 C:\xampp\htdocs\diby-leather\app\Controllers\Guest\Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Guest\Home->beranda()
+#6 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Home))
+#7 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diby-leather\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-18 17:29:23 --> Table 'diby.gambar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `barang`.*, `gambar`.`nama` as `gambar`, SUM(detail_pesanan.jumlah) as pembelian
+FROM `barang`
+JOIN `gambar` ON `barang`.`id` = `gambar`.`barang_id`
+JOIN `detail_pesanan` ON `barang`.`id` = `detail_pesanan`.`barang_id`
+GROUP BY `barang`.`id`
+ORDER BY `pembelian` ASC
+ LIMIT 8', [], false)
+ 2 APPPATH\Controllers\Guest\Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Home->beranda()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-18 17:29:29 --> mysqli_sql_exception: Table 'diby.gambar' doesn't exist in C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `barang`...', 0)
+#1 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `barang`...')
+#2 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `barang`...')
+#3 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `barang`...', Array, false)
+#4 C:\xampp\htdocs\diby-leather\app\Controllers\Guest\Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Guest\Home->beranda()
+#6 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Home))
+#7 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diby-leather\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-18 17:29:29 --> Table 'diby.gambar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `barang`.*, `gambar`.`nama` as `gambar`, SUM(detail_pesanan.jumlah) as pembelian
+FROM `barang`
+JOIN `gambar` ON `barang`.`id` = `gambar`.`barang_id`
+JOIN `detail_pesanan` ON `barang`.`id` = `detail_pesanan`.`barang_id`
+GROUP BY `barang`.`id`
+ORDER BY `pembelian` ASC
+ LIMIT 8', [], false)
+ 2 APPPATH\Controllers\Guest\Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Home->beranda()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-18 17:30:06 --> mysqli_sql_exception: Table 'diby.gambar' doesn't exist in C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `barang`...', 0)
+#1 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `barang`...')
+#2 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `barang`...')
+#3 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `barang`...', Array, false)
+#4 C:\xampp\htdocs\diby-leather\app\Controllers\Guest\Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Guest\Home->beranda()
+#6 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Home))
+#7 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\diby-leather\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\diby-leather\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-18 17:30:06 --> Table 'diby.gambar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `barang`.*, `gambar`.`nama` as `gambar`, SUM(detail_pesanan.jumlah) as pembelian
+FROM `barang`
+JOIN `gambar` ON `barang`.`id` = `gambar`.`barang_id`
+JOIN `detail_pesanan` ON `barang`.`id` = `detail_pesanan`.`barang_id`
+GROUP BY `barang`.`id`
+ORDER BY `pembelian` ASC
+ LIMIT 8', [], false)
+ 2 APPPATH\Controllers\Guest\Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Home->beranda()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-18 18:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-18 18:33:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Instagram.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 18:33:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Facebook.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 18:33:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Lazada.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 18:33:02 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Shopee.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 18:33:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Tokopedia.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-18 18:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 18:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-18 18:44:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Instagram.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 18:44:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Facebook.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 18:44:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Lazada.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 18:44:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Shopee.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 18:44:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Tokopedia.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-18 18:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-18 18:46:55 --> Undefined variable: gambar_produk
+in APPPATH\Views\guest\katalog\detail.php on line 54.
+ 1 APPPATH\Views\guest\katalog\detail.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: gambar_produk', 'APPPATH\\Views\\guest\\katalog\\detail.php', 54, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('ratna-dwi-yuli')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 18:48:24 --> Undefined variable: gambar_produk
+in APPPATH\Views\guest\katalog\detail.php on line 54.
+ 1 APPPATH\Views\guest\katalog\detail.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: gambar_produk', 'APPPATH\\Views\\guest\\katalog\\detail.php', 54, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(80): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('ratna-dwi-yuli')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-18 18:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-18 18:51:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(87): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Instagram.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 18:51:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(87): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Facebook.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 18:51:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(87): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Lazada.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 18:51:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(87): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Shopee.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-18 18:51:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\guest\katalog\detail.php on line 92.
+ 1 APPPATH\Views\guest\katalog\detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\guest\\katalog\\detail.php', 92, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\katalog\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/katalog/detail', [], true)
+ 5 APPPATH\Controllers\Guest\Katalog.php(87): view('guest/katalog/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest\Katalog->detail('FCPATH\\assets', 'images', 'Tokopedia.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest\Katalog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-18 18:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
