@@ -2,6 +2,16 @@
 
 <?= $this->section('guest-content'); ?>
 
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Diby Leather | Tas Kulit Wanita Inovasi Pertama di Indonesia</title>
+    <meta name="description" content="Produk yang dihasilkan Diby Leather diantaranya adalah Totebag Kulit, Handbag Kulit, Dompet Kulit dan lain sejenisnya.">
+    <meta name="keywords" content="Totebag, Handbag, Tas, Kulit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url(); ?>/assets/images/logo.png">
+</head>
 <!-- banner area start  -->
 <div class="banner-area banner-area3 pos-rel">
     <div class="swiper-container slider__active">

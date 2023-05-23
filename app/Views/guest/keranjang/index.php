@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="page-title-wrapper text-center">
-                    <h1 class="page-title mb-10">Kerangjang</h1>
+                    <h1 class="page-title mb-10">Keranjang</h1>
                     <div class="breadcrumb-menu">
                         <nav aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs">
                             <ul class="trail-items">

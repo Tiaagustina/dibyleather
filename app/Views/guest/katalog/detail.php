@@ -1,7 +1,16 @@
 <?= $this->extend('guest/layout/index'); ?>
 
 <?= $this->section('guest-content'); ?>
-
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Detail</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="Totebag, Handbag, Tas, Kulit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url(); ?>/assets/images/logo.png">
+</head>
 <!-- page title area start  -->
 <section class="page-title-area" data-background="<?= base_url(); ?>/assets/img/bg/page-title-bg.jpg">
     <div class="container">
@@ -35,7 +44,7 @@
                             <?php $counter = 0;
                             foreach ($gambar as $key) : ?>
                                 <div class="tab-pane fade <?= ($counter == 0) ? 'active show' : ''; ?>" id="pro-<?= $key['id']; ?>" role="tabpanel" aria-labelledby="pro-<?= $key['id']; ?>-tab">
-                                    <img class="active" src="<?= base_url(); ?>/img/<?= $key['nama']; ?>" alt="...">
+                                    <img class="active" id="image-preview" src="<?= base_url() . $key['nama']; ?>" alt="...">
                                 </div>
                             <?php $counter++;
                             endforeach; ?>
@@ -77,7 +86,7 @@
                                 <div class="rotation">
                                     <?php foreach ($gambar as $key) : ?>
 
-                                        <img src="<?= base_url(); ?>/img/<?= $key['nama']; ?>">
+                                        <img src="<?= base_url() . $key['nama']; ?>">
                                     <?php endforeach; ?>
                                 </div>
                             </div>
@@ -127,8 +136,6 @@
                 </div>
             </div>
         </div>
-
-
     </div>
 </section>
 <!-- shop details area end  -->
@@ -176,14 +183,17 @@
 
 <script src="<?= base_url(); ?>/assets/js/360deg.js"></script>
 <script src="<?= base_url(); ?>/assets/js/nice-select.min.js"></script>
-<?= $this->endSection(); ?>
 
 <script>
-    function onClick() {
-        console.log('clicked')
-    }
+    const imagePreview = document.querySelector("#image-preview");
+    const productImageList = document.querySelectorAll('.product-image')
 
-    const productImageList = document.querySelector('.product-image')
+    function onClick() {
+        const imgElement = this.querySelector("img");
+
+        imagePreview.src = imgElement.src;
+    }
 
     productImageList.forEach(productImage => productImage.addEventListener('click', onClick))
 </script>
+<?= $this->endSection(); ?>

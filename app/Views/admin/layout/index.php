@@ -46,7 +46,7 @@
                     Copyright © 2023 Lab Multimedia Sistem Informasi <div class="bullet">
                     </div>
                     <div class="footer-right">
-                        V.1.0.0
+                        V.0.0.1
                     </div>
             </footer>
 

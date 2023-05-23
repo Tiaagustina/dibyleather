@@ -8,54 +8,54 @@
     </div>
     <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-            <div class="card card-statistic-1">
+            <a href="/data-barang" class="card card-statistic-1" style="text-decoration: none">
                 <div class="card-icon bg-success">
                     <i class="fas fa-window-maximize"></i>
                 </div>
                 <div class="card-wrap">
                     <div class="card-header">
-                        <h4>Barang</h4>
+                        <h4>Total Barang</h4>
                     </div>
                     <div class="card-body">
                         <?= $barang; ?>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-            <div class="card card-statistic-1">
+            <a href="/data-users" class="card card-statistic-1" style="text-decoration: none">
                 <div class="card-icon bg-primary">
                     <i class="fas fa-window-maximize"></i>
                 </div>
                 <div class="card-wrap">
                     <div class="card-header">
-                        <h4>Total Orders</h4>
+                        <h4>Total User</h4>
                     </div>
                     <div class="card-body">
-                        <?= $order; ?>
+                        <?= $user; ?>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-            <div class="card card-statistic-1">
+            <a href="/data-transaksi" class="card card-statistic-1" style="text-decoration: none">
                 <div class="card-icon bg-warning">
                     <i class="fas fa-window-maximize"></i>
                 </div>
                 <div class="card-wrap">
                     <div class="card-header">
-                        <h4>Terjual</h4>
+                        <h4>Total Terjual</h4>
                     </div>
                     <div class="card-body">
-                        <?= $terjual['terjual']; ?>
+                        <?= $terjual; ?>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
 
     </div>
 
-    <div class="row">
+    <!--    <div class="row">
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">
@@ -124,8 +124,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- <div class="col-lg-4">
+        </div> -->
+
+    <!-- <div class="col-lg-4">
             <div class="card gradient-bottom">
                 <div class="card-header">
                     <h4>Top 5 Products</h4>
@@ -251,6 +252,7 @@
                 </div>
             </div>
         </div> -->
+
     </div>
 </section>
 

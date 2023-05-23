@@ -5,13 +5,7 @@
 <!-- Mirrored from wphix.com/html/ecomart-prev/ecomart/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 Feb 2023 12:00:27 GMT -->
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title><?= $title; ?></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url(); ?>/assets/img/favicon.png">
+    
     <!-- CSS here -->
     <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/preloader.css">
     <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/bootstrap.min.css">

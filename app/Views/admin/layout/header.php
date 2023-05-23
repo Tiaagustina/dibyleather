@@ -1,4 +1,4 @@
-    <div class="navbar-bg"></div>
+<div class="navbar-bg"></div>
     <nav class="navbar navbar-expand-lg main-navbar">
         <form class="form-inline mr-auto">
             <ul class="navbar-nav mr-3">
@@ -8,7 +8,7 @@
         </form>
         <ul class="navbar-nav navbar-right">
             <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-                    <img alt="image" src="<?= base_url(); ?>/assets/img/" class="rounded-circle mr-1">
+                    <img alt="image" src="<?= base_url(); ?>/assets/images/8.png" class="rounded-circle mr-1">
                     <div class="d-sm-none d-lg-inline-block">Hi, Rizky</div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right">
@@ -16,7 +16,7 @@
                         <i class="far fa-user"></i> Profile
                     </a>
                     <a href="<?= route_to('reset-password'); ?>" class="dropdown-item has-icon">
-                        <i class="fas fa-cog"></i> Mengatur ulang kata sandi
+                        <i class="fas fa-cog"></i> Atur ulang kata sandi
                     </a>
                     <div class="dropdown-divider"></div>
                     <a href="<?= base_url('logout'); ?>" class="dropdown-item has-icon text-danger">

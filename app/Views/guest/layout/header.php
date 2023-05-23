@@ -1,4 +1,5 @@
     <!-- header area start  -->
+
     <header class="header4">
         <div class="header-top d-none d-md-block">
             <div class="container header-container">
@@ -35,7 +36,6 @@
                                             <li><a href="<?= base_url("/"); ?>">Beranda</a></li>
                                             <li><a href="<?= base_url("katalog"); ?>">Etalase</a></li>
                                             <li><a href="<?= base_url("about"); ?>">Tentang Kami</a></li>
-                                            <li><a href="<?= base_url("development"); ?>">Team</a></li>
                                         </ul>
                                     </nav>
                                 </div>

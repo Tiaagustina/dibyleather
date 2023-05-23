@@ -14,14 +14,14 @@ class Dashboard extends BaseController
 
     public function index()
     {
-        $countOrders = $this->db->table('pesanan')->get()->getResultArray();
-        $countTerjual = $this->db->table('detail_pesanan')->select('SUM(jumlah) as terjual')->get();
+        $countUser = $this->db->table('users')->get()->getResultArray();
+        $countTerjual = $this->db->table('pesanan')->get()->getResultArray();
         $countBarang = $this->db->table('barang')->get()->getResultArray();
 
         $data = [
             'title' => 'Dashboard Admin',
-            'order' => count($countOrders),
-            'terjual' => $countTerjual->getRowArray(),
+            'user' => count($countUser),
+            'terjual' => count($countTerjual),
             'barang' => count($countBarang)
         ];
 
