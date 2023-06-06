@@ -324,7 +324,11 @@ class Barang extends BaseController
 
                 $data_gambar_3d[] = [
                     'barang_id' => $id,
+<<<<<<< HEAD
                     "nama" => $newFileName
+=======
+                    'nama' => $filename
+>>>>>>> a8214f26bd673c6a0dcfba837bb4d821f3259a41
                 ];
             }
 

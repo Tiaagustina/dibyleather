@@ -9,21 +9,34 @@
 
 <url>
   <loc>https://dibyleather.com/beranda</loc>
+<<<<<<< HEAD
   <lastmod>2023-06-03T13:51:40+00:00</lastmod>
+=======
+  <lastmod>2023-05-17T08:04:38+00:00</lastmod>
+>>>>>>> a8214f26bd673c6a0dcfba837bb4d821f3259a41
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://dibyleather.com/login</loc>
+<<<<<<< HEAD
   <lastmod>2023-06-03T13:51:40+00:00</lastmod>
+=======
+  <lastmod>2023-05-17T08:04:38+00:00</lastmod>
+>>>>>>> a8214f26bd673c6a0dcfba837bb4d821f3259a41
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dibyleather.com/katalog</loc>
+<<<<<<< HEAD
   <lastmod>2023-06-03T13:51:40+00:00</lastmod>
+=======
+  <lastmod>2023-05-17T08:04:38+00:00</lastmod>
+>>>>>>> a8214f26bd673c6a0dcfba837bb4d821f3259a41
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dibyleather.com/about</loc>
+<<<<<<< HEAD
   <lastmod>2023-06-03T13:51:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -35,31 +48,85 @@
 <url>
   <loc>https://dibyleather.com/katalog/ssssssaaaaa</loc>
   <lastmod>2023-06-03T13:51:40+00:00</lastmod>
+=======
+  <lastmod>2023-05-17T08:04:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dibyleather.com/katalog/handbag-verona-ebru</loc>
+  <lastmod>2023-05-17T08:04:38+00:00</lastmod>
+>>>>>>> a8214f26bd673c6a0dcfba837bb4d821f3259a41
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://dibyleather.com/register</loc>
+<<<<<<< HEAD
   <lastmod>2023-06-03T13:51:40+00:00</lastmod>
+=======
+  <lastmod>2023-05-17T08:04:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dibyleather.com/katalog/handbag-luxury</loc>
+  <lastmod>2023-05-17T08:04:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dibyleather.com/katalog/handbag-lotusia-ebru</loc>
+  <lastmod>2023-05-17T08:04:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dibyleather.com/katalog/tas-kulit-wanita-handbag-diby-lucia</loc>
+  <lastmod>2023-05-17T08:04:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dibyleather.com/katalog/handbag-lucia-ebru</loc>
+  <lastmod>2023-05-17T08:04:38+00:00</lastmod>
+>>>>>>> a8214f26bd673c6a0dcfba837bb4d821f3259a41
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://dibyleather.com/katalog/kategori/Tas%20Slempang</loc>
+<<<<<<< HEAD
   <lastmod>2023-06-03T13:51:40+00:00</lastmod>
+=======
+  <lastmod>2023-05-17T08:04:38+00:00</lastmod>
+>>>>>>> a8214f26bd673c6a0dcfba837bb4d821f3259a41
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://dibyleather.com/katalog/kategori/Tas%20Tangan</loc>
+<<<<<<< HEAD
   <lastmod>2023-06-03T13:51:40+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://dibyleather.com/katalog/kategori/index.html</loc>
   <lastmod>2023-06-03T13:51:40+00:00</lastmod>
+=======
+  <lastmod>2023-05-17T08:04:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dibyleather.com/katalog/kategori/index.php</loc>
+  <lastmod>2023-05-17T08:04:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dibyleather.com/katalog/kategori/index.html</loc>
+  <lastmod>2023-05-17T08:04:38+00:00</lastmod>
+>>>>>>> a8214f26bd673c6a0dcfba837bb4d821f3259a41
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://dibyleather.com/katalog/kategori/shop-details.html</loc>
+<<<<<<< HEAD
   <lastmod>2023-06-03T13:51:40+00:00</lastmod>
+=======
+  <lastmod>2023-05-17T08:04:38+00:00</lastmod>
+>>>>>>> a8214f26bd673c6a0dcfba837bb4d821f3259a41
   <priority>0.51</priority>
 </url>
 

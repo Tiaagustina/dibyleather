@@ -9,7 +9,11 @@
 
                     <div class="col-lg-300 col-md-400">
                         <div class="sidebar-widget-wrapper mb-60">
+<<<<<<< HEAD
                             <div class="sidebar-widget" style="min-width: 100%">
+=======
+                            <div class="sidebar-widget" style="width: 93vw;">
+>>>>>>> a8214f26bd673c6a0dcfba837bb4d821f3259a41
                                 <div class="sidebar-widget-content">
                                     <div class="contact-list">
                                         <div class="contact-list-item">

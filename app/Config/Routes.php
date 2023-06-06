@@ -58,7 +58,6 @@ $routes->get('/checkout-barang', 'Guest\Checkout::beli', ['filter' => 'role:gues
 $routes->get('/riwayat', 'Guest\Riwayat::index', ['filter' => 'role:guest']);
 $routes->get('/riwayat/(:any)', 'Guest\Riwayat::detail/$1', ['filter' => 'role:guest']);
 
-
 /*
  * --------------------------------------------------------------------
  * Additional Routing

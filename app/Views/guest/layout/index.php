@@ -5,6 +5,7 @@
 <!-- Mirrored from wphix.com/html/ecomart-prev/ecomart/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 Feb 2023 12:00:27 GMT -->
 
 <head>
+<<<<<<< HEAD
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -13,6 +14,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MJLTXKC');</script>
 <!-- End Google Tag Manager -->
 
+=======
+    
+>>>>>>> a8214f26bd673c6a0dcfba837bb4d821f3259a41
     <!-- CSS here -->
     <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/preloader.css">
     <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/bootstrap.min.css">

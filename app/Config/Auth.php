@@ -16,7 +16,11 @@ class Auth extends BaseConfig
      *
      * @var string
      */
+<<<<<<< HEAD
     public $defaultUserGroup = "guest";
+=======
+    public $defaultUserGroup;
+>>>>>>> a8214f26bd673c6a0dcfba837bb4d821f3259a41
 
     /**
      * --------------------------------------------------------------------
@@ -163,7 +167,11 @@ class Auth extends BaseConfig
      *
      * @var int
      */
+<<<<<<< HEAD
     public $maxSimilarity = 0;
+=======
+    public $maxSimilarity = 50;
+>>>>>>> a8214f26bd673c6a0dcfba837bb4d821f3259a41
 
     /**
      * --------------------------------------------------------------------

@@ -6,10 +6,16 @@
 <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Diby Leather | Tas Kulit Wanita Inovasi Pertama di Indonesia</title>
+<<<<<<< HEAD
     <meta name="description" content="Produsen tas kulit dengan teknik pewarnaan inovasi terbaru. Terbatas dan Istimewa setiap jenisnya. Menerima pesanan custom, hadiah, dan suvenir berbahan kulit.">
     <meta name="keywords" content="tas, kulit, produsen, inovasi, terbatas, istimewa, pesanan, hadiah, suvenir, handbag, slingbag">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="index, follow">
+=======
+    <meta name="description" content="Produk yang dihasilkan Diby Leather diantaranya adalah Totebag Kulit, Handbag Kulit, Dompet Kulit dan lain sejenisnya.">
+    <meta name="keywords" content="Totebag, Handbag, Tas, Kulit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+>>>>>>> a8214f26bd673c6a0dcfba837bb4d821f3259a41
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="<?= base_url(); ?>/assets/images/logo.png">
 </head>
