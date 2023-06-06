@@ -81,7 +81,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="checkoutOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bankOne" aria-expanded="true" aria-controls="bankOne">
-                                        Direct Bank Transfer
+                                        Pembayaran Melalui Bank
                                     </button>
                                 </h2>
                                 <div id="bankOne" class="accordion-collapse collapse show" aria-labelledby="checkoutOne" data-bs-parent="#checkoutAccordion">
@@ -95,7 +95,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <h3>Billing Details</h3>
+                <h3>Alamat Tujuan</h3>
                 <form class="form-group" action="/Guest/Checkout/beli" method="POST" enctype="multipart/form-data">
                     <?= csrf_field(); ?>
                     <?php foreach ($barang as $key) {

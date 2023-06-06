@@ -15,8 +15,8 @@ class Katalog extends BaseController
     public function index()
     {
         $getAllBarang = $this->db->table('barang')
-            ->select('barang.*, gambar.nama as gambar')
-            ->join('gambar', 'barang.id = gambar.barang_id', 'left')
+            ->select('barang.*, gambar_produk.nama as gambar')
+            ->join('gambar_produk', 'barang.id = gambar_produk.barang_id', 'left')
             ->groupBy('barang.id')
             ->get();
 
@@ -34,8 +34,8 @@ class Katalog extends BaseController
     public function filter($kategori)
     {
         $getAllBarang = $this->db->table('barang')
-            ->select('barang.*, gambar.nama as gambar')
-            ->join('gambar', 'barang.id = gambar.barang_id', 'left')
+            ->select('barang.*, gambar_produk.nama as gambar')
+            ->join('gambar_produk', 'barang.id = gambar_produk.barang_id', 'left')
             ->join('kategori', 'barang.kategori_id = kategori.id')
             ->where('kategori.nama', $kategori)
             ->groupBy('barang.id')
@@ -70,8 +70,8 @@ class Katalog extends BaseController
             ->where('barang.slug', $slug) //ku edit barang.slug
             ->get();
 
-        $getOtherItem = $this->db->table('barang')->select('barang.*, gambar.nama as gambar')
-            ->join('gambar', 'barang.id = gambar.barang_id', 'left')
+        $getOtherItem = $this->db->table('barang')->select('barang.*, gambar_produk.nama as gambar')
+            ->join('gambar_produk', 'barang.id = gambar_produk.barang_id', 'left')
             ->groupBy('barang.id')
             ->limit(5)
             ->get();

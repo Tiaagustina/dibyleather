@@ -2,6 +2,11 @@
 
 <?= $this->section("auth"); ?>
 
+<head>
+ <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+    <title>Daftar</title>
+    </head>
 <section class="section">
     <div class="container mt-5">
         <div class="row">

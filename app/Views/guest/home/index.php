@@ -2,6 +2,17 @@
 
 <?= $this->section('guest-content'); ?>
 
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Diby Leather | Tas Kulit Wanita Inovasi Pertama di Indonesia</title>
+    <meta name="description" content="Produsen tas kulit dengan teknik pewarnaan inovasi terbaru. Terbatas dan Istimewa setiap jenisnya. Menerima pesanan custom, hadiah, dan suvenir berbahan kulit.">
+    <meta name="keywords" content="tas, kulit, produsen, inovasi, terbatas, istimewa, pesanan, hadiah, suvenir, handbag, slingbag">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url(); ?>/assets/images/logo.png">
+</head>
 <!-- banner area start  -->
 <div class="banner-area banner-area3 pos-rel">
     <div class="swiper-container slider__active">
@@ -83,7 +94,7 @@
                             <div class="product-tab-slider swiper-container">
                                 <div class="swiper-wrapper">
                                     <?php foreach ($barang as $key) : ?>
-                                        <div class="swiper-slide">
+                                        <div class="swiper-slide product-swiper-wrapper">
                                             <div class="single-product single-product-st2">
                                                 <div class="product-image pos-rel">
                                                     <a href="<?= base_url("katalog/" . $key['slug']); ?>" class=""><img src="<?= base_url(); ?>/img/<?= $key['gambar']; ?>" alt="img"></a>
@@ -128,7 +139,7 @@
                             <div class="product-tab-slider swiper-container">
                                 <div class="swiper-wrapper">
                                     <?php foreach ($terbaru as $key) : ?>
-                                        <div class="swiper-slide">
+                                        <div class="swiper-slide product-swiper-wrapper">
                                             <div class="single-product single-product-st2">
                                                 <div class="product-image pos-rel">
                                                     <a href="<?= base_url("katalog/" . $key['slug']); ?>" class=""><img src="<?= base_url(); ?>/img/<?= $key['gambar']; ?>" alt="img"></a>

@@ -2,8 +2,6 @@
 <!-- contact main area start  -->
 <section class="contact-main-area pt-120 pb-60">
     <div class="container container-small">
-        <div class="row">
-            <div class="col-lg-8 col-md-12">
                 <div class="contact-main-wrapper mb-60">
                     <div class="section-title">
                         <h2 class="section-main-title mb-40">Kontak</h2>
@@ -11,8 +9,7 @@
 
                     <div class="col-lg-300 col-md-400">
                         <div class="sidebar-widget-wrapper mb-60">
-                            <div class="sidebar-widget" style="width: 93vw;">
-                                <h4 class="sidebar-widget-title">Support kontak</h4>
+                            <div class="sidebar-widget" style="min-width: 100%">
                                 <div class="sidebar-widget-content">
                                     <div class="contact-list">
                                         <div class="contact-list-item">
@@ -23,7 +20,7 @@
                                                     </svg>
                                                 </div>
                                                 <div class="irc-item-content">
-                                                    <div class="irc-item-heading">Whatsaap</div>
+                                                    <div class="irc-item-heading">WhatsApp</div>
                                                     <?php
                                                     $pesan = 'Halo kak Diby Leather';
                                                     $url = 'https://api.whatsapp.com/send?phone=62819-52378999&text=' . urlencode($pesan);
@@ -43,7 +40,7 @@
                                                 </div>
                                                 <div class="irc-item-content">
                                                     <div class="irc-item-heading">Email</div>
-                                                    <span><a href="https://wphix.com/cdn-cgi/l/email-protection#6e270008012e0b160f031e020b400d0103"><span class="__cf_email__" data-cfemail="c78ea9a1a887a2bfa6aab7aba2e9a4a8aa">diby.leather@gmail.com</span></a></span>
+                                                    <span><a href="https://wphix.com/cdn-cgi/l/email-protection#6e270008012e0b160f031e020b400d0103"><span class="__cf_email__" data-cfemail="c78ea9a1a887a2bfa6aab7aba2e9a4a8aa">dibyleatheryogya@gmail.com</span></a></span>
                                                 </div>
                                             </div>
                                         </div>
@@ -78,46 +75,47 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- contact main area end  -->
+</section>
+<!-- contact main area end  -->
 
-        <footer data-background="" class="footer1-bg">
-            <section class="footer-area footer-area1 footer-area1-bg pt-10 pb-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="footer-widget footer1-widget footer1-widget1 mb-40">
-                                <div class="footer-widget-title">
-                                    <div class="social-wrapper">
+<!-- sosial media area start  -->
+<footer data-background="" class="footer1-bg">
+    <section class="footer-area footer-area1 footer-area1-bg pt-10 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-widget footer1-widget footer1-widget1 mb-40">
+                        <div class="footer-widget-title">
+                            <div class="social-wrapper">
 
-                                        <div class="contact-list-item">
-                                            <div class="irc-item">
-                                                <div class="irc-item-icon">
-                                                    <path id="Path_10" data-name="Path 10" d="M20.933,20.521H4.137A2.9,2.9,0,0,1,1.25,17.634V7.137A2.9,2.9,0,0,1,4.137,4.25h16.8A2.9,2.9,0,0,1,23.82,7.137v10.5A2.9,2.9,0,0,1,20.933,20.521Zm-16.8-14.7A1.312,1.312,0,0,0,2.825,7.137v10.5a1.312,1.312,0,0,0,1.312,1.312h16.8a1.312,1.312,0,0,0,1.312-1.312V7.137a1.312,1.312,0,0,0-1.312-1.312Z" transform="translate(-1.25 -4.25)" fill="#171717" />
-                                                    <path id="Path_11" data-name="Path 11" d="M12.534,13.7a3.412,3.412,0,0,1-1.732-.472L1.638,7.778a.8.8,0,0,1-.283-1.05A.777.777,0,0,1,2.4,6.455l9.175,5.438a1.774,1.774,0,0,0,1.848,0L22.6,6.455a.777.777,0,0,1,1.05.273.8.8,0,0,1-.283,1.05l-9.1,5.448a3.412,3.412,0,0,1-1.732.472Z" transform="translate(-1.249 -4.145)" fill="#171717" />
-                                                </svg>
-                                            </div>
-                                            <div class="irc-item-content">
-                                                <div class="irc-item-heading">Sosial Media dan Toko Kami:</div>
-                                                <a href="https://www.instagram.com/dbleather/"><img src="assets/images/Instagram.png" width="30" height="30" alt=""></a>
-                                                <a href="https://www.facebook.com/Dibyleather/?locale=id_ID"><img src="assets/images/Facebook.png" width="30" height="30" alt=""></a>
-                                                <a href="https://www.lazada.co.id/shop/diby-leather-bag"><img src="assets/images/Lazada.png" width="40" height="40" alt=""></a>
-                                                <a href="https://shopee.co.id/dibyleather"><img src="assets/images/Shopee.png" width="40" height="40" alt=""></a>
-                                                <a href="https://www.tokopedia.com/dbleather"><img src="assets/images/Tokopedia.png" width="40" height="40" alt=""></a>
-                                            </div>
+                                <div class="contact-list-item">
+                                    <div class="irc-item">
+                                        <div class="irc-item-icon">
+                                            <path id="Path_10" data-name="Path 10" d="M20.933,20.521H4.137A2.9,2.9,0,0,1,1.25,17.634V7.137A2.9,2.9,0,0,1,4.137,4.25h16.8A2.9,2.9,0,0,1,23.82,7.137v10.5A2.9,2.9,0,0,1,20.933,20.521Zm-16.8-14.7A1.312,1.312,0,0,0,2.825,7.137v10.5a1.312,1.312,0,0,0,1.312,1.312h16.8a1.312,1.312,0,0,0,1.312-1.312V7.137a1.312,1.312,0,0,0-1.312-1.312Z" transform="translate(-1.25 -4.25)" fill="#171717" />
+                                            <path id="Path_11" data-name="Path 11" d="M12.534,13.7a3.412,3.412,0,0,1-1.732-.472L1.638,7.778a.8.8,0,0,1-.283-1.05A.777.777,0,0,1,2.4,6.455l9.175,5.438a1.774,1.774,0,0,0,1.848,0L22.6,6.455a.777.777,0,0,1,1.05.273.8.8,0,0,1-.283,1.05l-9.1,5.448a3.412,3.412,0,0,1-1.732.472Z" transform="translate(-1.249 -4.145)" fill="#171717" />
+                                            </svg>
+                                        </div>
+                                        <div class="irc-item-content">
+                                            <div class="irc-item-heading">Sosial Media dan Toko Kami:</div>
+                                            <a href="https://www.instagram.com/dbleather/"><img src="assets/images/Instagram.png" width="30" height="30" alt=""></a>
+                                            <a href="https://www.facebook.com/Dibyleather/?locale=id_ID"><img src="assets/images/Facebook.png" width="30" height="30" alt=""></a>
+                                            <a href="https://www.lazada.co.id/shop/diby-leather-bag"><img src="assets/images/Lazada.png" width="40" height="40" alt=""></a>
+                                            <a href="https://shopee.co.id/dibyleather"><img src="assets/images/Shopee.png" width="40" height="40" alt=""></a>
+                                            <a href="https://www.tokopedia.com/dbleather"><img src="assets/images/Tokopedia.png" width="40" height="40" alt=""></a>
                                         </div>
                                     </div>
-
                                 </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <div class="text-center">
-            <p>Copyright © 2023 Lab Multimedia Sistem Informasi</p>
         </div>
-    </footer>
+    </section>
+
+    <div class="text-center">
+        <p>Copyright © 2023 Lab Multimedia Sistem Informasi</p>
+    </div>
+</footer>
 <!-- footer area end  -->

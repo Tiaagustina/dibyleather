@@ -15,9 +15,9 @@ class Keranjang extends BaseController
     public function index()
     {
         $getAllItem = $this->db->table('keranjang')
-        ->select('keranjang.id as id, barang.nama as nama_barang, barang.slug as slug, barang.harga as harga, keranjang.jumlah as qty, gambar.nama as nama_gambar')
+        ->select('keranjang.id as id, barang.nama as nama_barang, barang.slug as slug, barang.harga as harga, keranjang.jumlah as qty, gambar_produk.nama as nama_gambar')
         ->join('barang', 'keranjang.barang_id = barang.id')
-        ->join('gambar', 'keranjang.barang_id = gambar.barang_id', 'left')
+        ->join('gambar_produk', 'keranjang.barang_id = gambar_produk.barang_id', 'left')
         ->where('keranjang.user_id', user_id())
         ->groupBy('barang.id')
         ->get();

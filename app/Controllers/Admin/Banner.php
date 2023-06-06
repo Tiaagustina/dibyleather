@@ -102,16 +102,24 @@ class Banner extends BaseController
 
         $id = $this->request->getVar('id');
         $image = $this->request->getFile('image');
-        $fileImage = $image->getRandomName();
-        $image->move('img', $fileImage);
 
         $data = [
             'title' => $this->request->getVar('title'),
             'meta_text' => $this->request->getVar('meta_text'),
-            'image' => $fileImage
         ];
 
         $this->db->table('banner')->where('id', $id)->update($data);
+
+        if ($image->isValid()) {
+            $fileImage = $image->getRandomName();
+            $image->move('img', $fileImage);
+
+            $data = [
+                'image' => $fileImage
+            ];
+
+            $this->db->table('banner')->where('id', $id)->update($data);
+        }
 
         session()->setFlashdata('berhasil', 'Data banner berhasil diupdate');
         return redirect()->to('data-banner');

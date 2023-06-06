@@ -330,7 +330,10 @@
 	});
 	$(".cart-plus").click(function () {
 		var $input = $(this).parent().find("input");
-		$input.val(parseInt($input.val()) + 1);
+		var maxValue = $input.attr("max");
+		var count = parseInt($input.val()) + 1;
+		count = count > maxValue ? maxValue : count;
+		$input.val(count);
 		$input.change();
 		return false;
 	});

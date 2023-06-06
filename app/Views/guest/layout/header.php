@@ -27,7 +27,7 @@
                         <div class="header-main-content-wrapper">
                             <div class="header-main-left header-main-left-header1">
                                 <div class="header-logo header1-logo">
-                                    <a href="index.php" class="logo-bl"><img src="<?= base_url(); ?>/assets/images/logo1.png" alt="logo-img"></a>
+                                    <a href="/beranda" class="logo-bl"><img src="<?= base_url(); ?>/assets/images/logo1.png" alt="logo-img"></a>
                                 </div>
                                 <div class="main-menu main-menu4 d-none d-lg-block">
                                     <nav id="mobile-menu">
@@ -35,7 +35,6 @@
                                             <li><a href="<?= base_url("/"); ?>">Beranda</a></li>
                                             <li><a href="<?= base_url("katalog"); ?>">Etalase</a></li>
                                             <li><a href="<?= base_url("about"); ?>">Tentang Kami</a></li>
-                                            <li><a href="<?= base_url("development"); ?>">Team</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -49,6 +48,8 @@
                                     <div class="action-item action-item-cart">
                                         <a href="<?= base_url('keranjang'); ?>" class="view-cart-button">
                                             <i class="fal fa-shopping-bag"></i></a>
+                                        <a href="<?= base_url('riwayat'); ?>" class="view-riwayat-button">
+                                            <i class="fal fa-receipt"></i></a>
                                     </div>
                                 </div>
                             </div>

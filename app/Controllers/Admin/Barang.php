@@ -1,15 +1,19 @@
 <?php
 
 /*Nama penamaan yang digunakan untuk mengelompokkan ke dalam package/folder*/
-    namespace App\Controllers\Admin;
+
+namespace App\Controllers\Admin;
 
 /*Menggunakan*/
-    use App\Controllers\BaseController;
+
+use App\Controllers\BaseController;
 
 /*Nama kelas*/
-    class Barang extends BaseController
+
+class Barang extends BaseController
 {
     protected $db;
+
     public function __construct()
     {
         $this->db = \Config\Database::connect();
@@ -18,9 +22,9 @@
     public function index()
     {
         $getAllBarang = $this->db->table('barang')
-            ->select('barang.*, kategori.nama as nama_kategori, gambar.nama as nama_gambar')
+            ->select('barang.*, kategori.nama as nama_kategori, gambar_produk.nama as nama_gambar')
             ->join('kategori', 'barang.kategori_id = kategori.id')
-            ->join('gambar', 'barang.id = gambar.barang_id')
+            ->join('gambar_produk', 'barang.id = gambar_produk.barang_id')
             ->groupBy('barang.id')
             ->orderBy('created_at ASC')
             ->get();
@@ -114,29 +118,53 @@
 
         $this->db->table('barang')->insert($data);
 
-        $images_3d = $this->request->getFileMultiple('images_3d');
+        $images_3d = $this->request->getFile('images_3d');
         $images_product = $this->request->getFileMultiple('images_product');
 
-        if (count($images_3d) > 60) {
-            session()->setFlashdata('gagal', "maksimal 60 gambar");
-            return redirect()->back()->withInput();
+        // pindahkan file zip yang diupload ke folder temp
+        if ($images_3d->isValid() && !$images_3d->hasMoved()) {
+            $images_3d->move('./temp', $images_3d->getName());
+        }
+
+        // buat instance dari ZipArchive
+        $zip = new \ZipArchive;
+
+        // ngecek zip images_3d yang diupload tu benaran zip atau nda
+        if ($zip->open('./temp/' . $images_3d->getName()) === TRUE) {
+            // extract zip nya ke folder /img/temp/{id_barang}
+            $zip->extractTo('./temp');
+            // ini artinya kita udah selesai melakukan operasi di zip tersebut
+            $zip->close();
+
+            unlink('./temp/' . $images_3d->getName());
+        }
+
+        $extracted_3d_images = glob("temp/*");
+
+        if ($extracted_3d_images) {
+            foreach ($extracted_3d_images as $image_3d) {
+                $images_3d_dir = 'img/' . $id;
+
+                if (!is_dir($images_3d_dir)) {
+                    mkdir($images_3d_dir, 0777, true);
+                }
+
+                $newFileName = $images_3d_dir . '/' . basename($image_3d);
+                rename($image_3d, $newFileName);
+
+                $data_gambar_3d[] = [
+                    'barang_id' => $id,
+                    "nama" => $newFileName
+                ];
+            }
+
+            $this->db->table('gambar')->insertBatch($data_gambar_3d);
+            rmdir('./temp');
         }
 
         if (count($images_product) > 5) {
             session()->setFlashdata('gagal', "maksimal 5 gambar produk");
             return redirect()->back()->withInput();
-        }
-
-        if ($images_3d) {
-            foreach ($images_3d as $image) {
-                $filename = $image->getRandomName();
-                $image->move('img', $filename);
-                $data_gambar_3d[] = [
-                    'barang_id' => $id,
-                    'nama' =>  $filename
-                ];
-            }
-            $this->db->table('gambar')->insertBatch($data_gambar_3d);
         }
 
         if ($images_product) {
@@ -145,12 +173,11 @@
                 $image->move('img', $filename);
                 $data_gambar_produk[] = [
                     'barang_id' => $id,
-                    'nama' =>  $filename
+                    'nama' => $filename
                 ];
             }
             $this->db->table('gambar_produk')->insertBatch($data_gambar_produk);
         }
-
 
         $barang_data = [
             'updated_by' => user_id()
@@ -161,6 +188,7 @@
         session()->setFlashdata('berhasil', 'Data barang berhasil ditambahkan');
         return redirect()->to('data-barang');
     }
+
     /////////////////
     public function detail($id)
     {
@@ -233,20 +261,76 @@
             'berat' => $this->request->getVar('berat'),
             'updated_by' => user_id()
         ];
+
         $this->db->table('barang')->where('id', $id)->update($data);
 
-        $images = $this->request->getFileMultiple('images');
+        $images = $this->request->getFileMultiple('images_product');
+        $images_3d = $this->request->getFile('images_3d');
+
         if ($images) {
-            $this->db->table('gambar')->where('barang_id', $id)->delete();
-            foreach ($images as $image) {
-                $filename = $image->getRandomName();
-                $image->move('img', $filename);
-                $data_gambar[] = [
+            if ($images[0]->isValid()) {
+                $this->db->table('gambar_produk')->where('barang_id', $id)->delete();
+
+                foreach ($images as $image) {
+                    $filename = $image->getRandomName();
+                    $image->move('img', $filename);
+                    $data_gambar[] = [
+                        'barang_id' => $id,
+                        'nama' => $filename
+                    ];
+                }
+
+                $this->db->table('gambar_produk')->insertBatch($data_gambar);
+            }
+        }
+
+        // pindahkan file zip yang diupload ke folder temp
+        if ($images_3d->isValid() && !$images_3d->hasMoved()) {
+            $images_3d->move('./temp', $images_3d->getName());
+        }
+
+        // buat instance dari ZipArchive
+        $zip = new \ZipArchive;
+
+        // ngecek zip images_3d yang diupload tu benaran zip atau nda
+        if ($zip->open('./temp/' . $images_3d->getName()) === TRUE) {
+            // extract zip nya ke folder /img/temp/{id_barang}
+            $zip->extractTo('./temp');
+            // ini artinya kita udah selesai melakukan operasi di zip tersebut
+            $zip->close();
+
+            unlink('./temp/' . $images_3d->getName());
+        }
+
+        $extracted_3d_images = glob("temp/*");
+
+        if ($extracted_3d_images) {
+            $images_3d_dir = 'img/' . $id;
+
+            // hapus foto 3d produk yang lama
+            $old_3d_images = glob($images_3d_dir . '/*');
+            foreach ($old_3d_images as $old_image) {
+                if (is_file($old_image))
+                    unlink($old_image);
+            }
+
+            foreach ($extracted_3d_images as $image_3d) {
+                if (!is_dir($images_3d_dir)) {
+                    mkdir($images_3d_dir, 0777, true);
+                }
+
+                $newFileName = $images_3d_dir . '/' . basename($image_3d);
+                rename($image_3d, $newFileName);
+
+                $data_gambar_3d[] = [
                     'barang_id' => $id,
-                    'nama' =>  $filename
+                    "nama" => $newFileName
                 ];
             }
-            $this->db->table('gambar')->insertBatch($data_gambar);
+
+            $this->db->table('gambar')->where('barang_id', $id)->delete();
+            $this->db->table('gambar')->insertBatch($data_gambar_3d);
+            rmdir('./temp');
         }
 
         session()->setFlashdata('berhasil', 'Data barang berhasil ditambahkan');

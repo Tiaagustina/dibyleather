@@ -1,7 +1,7 @@
 <div class="main-sidebar sidebar-style-2">
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
-            <a href="index.html">Diby Leather</a>
+            <a href="<?= base_url("dashboard"); ?>">Diby Leather</a>
         </div>
         <div class="sidebar-brand sidebar-brand-sm">
             <a href="index.html">Diby</a>
@@ -10,6 +10,7 @@
             <li class="menu-header">Dashboard</li>
             <li><a class="nav-link" href="<?= base_url("dashboard"); ?>"><i class="fas fa-home"></i> <span>Dashboard</span></a></li>
             <li><a class="nav-link" href="<?= base_url("data-barang"); ?>"><i class="fas fa-window-maximize"></i> <span>Data Barang</span></a></li>
+            <li><a class="nav-link" href="<?= base_url("data-users"); ?>"><i class="fas fa-user"></i> <span>Data Users</span></a></li>
             <li><a class="nav-link" href="<?= base_url("data-banner"); ?>"><i class="fas fa-book-open"></i> <span>Data Banner</span></a></li>
             <li><a class="nav-link" href="<?= base_url("data-transaksi"); ?>"><i class="fas fa-file-invoice-dollar"></i> <span>Data Transaksi</span></a></li>
             <li><a class="nav-link" href="<?= base_url("data-pembayaran"); ?>"><i class="fas fa-money-bill"></i> <span>Data Pembayaran</span></a></li>

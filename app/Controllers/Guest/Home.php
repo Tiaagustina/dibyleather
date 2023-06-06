@@ -29,8 +29,8 @@ class Home extends BaseController
     {
         $getAllBanner = $this->db->table('banner')->get();
         $getBestSeller = $this->db->table('barang')
-        ->select('barang.*, gambar.nama as gambar, SUM(detail_pesanan.jumlah) as pembelian')
-        ->join('gambar', 'barang.id = gambar.barang_id')
+        ->select('barang.*, gambar_produk.nama as gambar, SUM(detail_pesanan.jumlah) as pembelian')
+        ->join('gambar_produk', 'barang.id = gambar_produk.barang_id')
         ->join('detail_pesanan', 'barang.id = detail_pesanan.barang_id')
         ->groupBy('barang.id')
         ->orderBy('pembelian ASC')
@@ -38,8 +38,8 @@ class Home extends BaseController
         ->get();
 
         $getNewest = $this->db->table('barang')
-        ->select('barang.*, gambar.nama as gambar')
-        ->join('gambar', 'barang.id = gambar.barang_id')
+        ->select('barang.*, gambar_produk.nama as gambar')
+        ->join('gambar_produk', 'barang.id = gambar_produk.barang_id')
         ->groupBy('barang.id')
         ->orderBy('barang.created_at ASC')
         ->limit(10)

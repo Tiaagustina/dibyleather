@@ -2,6 +2,17 @@
 
 <?= $this->section('guest-content'); ?>
 
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Katalog</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url(); ?>/assets/images/logo.png">
+</head>
+
 <!-- page title area start  -->
 <section class="page-title-area" data-background="assets/img/bg/page-title-bg.jpg">
     <div class="container">

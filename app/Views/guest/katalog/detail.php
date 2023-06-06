@@ -1,7 +1,16 @@
 <?= $this->extend('guest/layout/index'); ?>
 
 <?= $this->section('guest-content'); ?>
-
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Detail</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="Totebag, Handbag, Tas, Kulit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url(); ?>/assets/images/logo.png">
+</head>
 <!-- page title area start  -->
 <section class="page-title-area" data-background="<?= base_url(); ?>/assets/img/bg/page-title-bg.jpg">
     <div class="container">
@@ -28,14 +37,14 @@
 <section class="shop-details-area pt-120 pb-90">
     <div class="container container-small">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-5">
                 <div class="product-details-tab-wrapper mb-30">
                     <div class="product-details-tab">
                         <div class="tab-content" id="productDetailsTab">
                             <?php $counter = 0;
                             foreach ($gambar as $key) : ?>
                                 <div class="tab-pane fade <?= ($counter == 0) ? 'active show' : ''; ?>" id="pro-<?= $key['id']; ?>" role="tabpanel" aria-labelledby="pro-<?= $key['id']; ?>-tab">
-                                    <img class="active" src="<?= base_url(); ?>/img/<?= $key['nama']; ?>" alt="...">
+                                    <img class="active" id="image-preview" src="<?= base_url() . $key['nama']; ?>" alt="...">
                                 </div>
                             <?php $counter++;
                             endforeach; ?>
@@ -77,7 +86,7 @@
                                 <div class="rotation">
                                     <?php foreach ($gambar as $key) : ?>
 
-                                        <img src="<?= base_url(); ?>/img/<?= $key['nama']; ?>">
+                                        <img src="<?= base_url() . $key['nama']; ?>">
                                     <?php endforeach; ?>
                                 </div>
                             </div>
@@ -85,7 +94,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-7 pl-60">
                 <div class="product-side-info mb-30">
                     <form action="/Guest/Keranjang/addToCart" method="post" enctype="multipart/form-data">
                         <?= csrf_field(); ?>
@@ -98,7 +107,7 @@
                             <div class="product-quantity-form">
                                 <form action="#">
                                     <button class="cart-minus"><i class="far fa-minus"></i></button>
-                                    <input class="cart-input" type="text" value="1" name="jumlah">
+                                    <input class="cart-input" type="number" value=1 name="jumlah" min="1" max="<?= $barang['stok'] ?>">
                                     <button class="cart-plus"><i class="far fa-plus"></i></button>
                                 </form>
                             </div>
@@ -119,6 +128,7 @@
                                     <div class="product__details-des">
                                         <p>Kondisi: Baru</p>
                                         <p>Berat Satuan: <?= $barang['berat']; ?> gram</p>
+                                        <p>Stok: <?= $barang['stok']; ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -127,8 +137,6 @@
                 </div>
             </div>
         </div>
-
-
     </div>
 </section>
 <!-- shop details area end  -->
@@ -143,7 +151,7 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <?php foreach ($barang_lainya as $key) : ?>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide product-swiper-wrapper">
                         <div class="single-product">
                             <div class="product-image pos-rel">
                                 <a href="<?= base_url("katalog/" . $key['slug']); ?>" class=""><img src="<?= base_url(); ?>/img/<?= $key['gambar']; ?>" alt="img"></a>
@@ -176,14 +184,17 @@
 
 <script src="<?= base_url(); ?>/assets/js/360deg.js"></script>
 <script src="<?= base_url(); ?>/assets/js/nice-select.min.js"></script>
-<?= $this->endSection(); ?>
 
 <script>
-    function onClick() {
-        console.log('clicked')
-    }
+    const imagePreview = document.querySelector("#image-preview");
+    const productImageList = document.querySelectorAll('.product-image')
 
-    const productImageList = document.querySelector('.product-image')
+    function onClick() {
+        const imgElement = this.querySelector("img");
+
+        imagePreview.src = imgElement.src;
+    }
 
     productImageList.forEach(productImage => productImage.addEventListener('click', onClick))
 </script>
+<?= $this->endSection(); ?>

@@ -52,7 +52,7 @@
                                         <!-- Looping data tabel -->
                                         <option>Kategori barang...</option>
                                         <?php foreach ($kategori as $key) : ?>
-                                            <option value="<?= $key['id']; ?>"><?= $key['nama']; ?></option>
+                                            <option value="<?= $key['id']; ?>" <?php if($key['id'] === $barang['kategori_id']): ?> selected="selected"<?php endif; ?>><?= $key['nama']; ?></option>
                                         <?php endforeach; ?>
                                     </select>
                                 </div>
@@ -70,15 +70,21 @@
                                 </div>
                             </div>
                             <div class=" form-group row mb-4">
-                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Gambar</label>
+                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Gambar Produk</label>
                                 <div class="col-sm-12 col-md-7">
                                     <div class="d-flex flex-wrap">
-                                        <?php foreach ($gambar as $key) : ?>
+                                        <?php foreach ($gambar_produk as $key) : ?>
                                             <img style="width: 140px; margin:0 20px 10px 0; height: 140px;" src="<?= base_url(); ?>/img/<?= $key['nama']; ?>" alt="">
                                         <?php endforeach; ?>
                                     </div>
-                                    <input class="form-control-file" id="images" type="file" name="images[]" multiple>
-                                    <div style="display: flex;" id="preview-images"></div>
+                                    <input class="form-control-file" id="images_product" type="file" name="images_product[]" multiple>
+                                    <div style="display: flex;" id="preview-images-product"></div>
+                                </div>
+                            </div>
+                            <div class="form-group row mb-4">
+                                <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Gambar 3D</label>
+                                <div class="col-sm-12 col-md-7">
+                                    <input class="form-control-file" id="images_3d" type="file" name="images_3d" accept="zip">
                                 </div>
                             </div>
                             <div class="form-group row mb-4">
@@ -100,15 +106,15 @@
 <?= $this->endSection(); ?>
 
 <?= $this->section('admin-script'); ?>
-<script>
-    $(document).ready(function() {
-        $("#images").change(function() {
-            $("#preview-images").empty();
-            var total_file = document.getElementById("images").files.length;
-            for (var i = 0; i < total_file; i++) {
-                $("#preview-images").append("<img style='margin:10px 20px 10px 0;' src='" + URL.createObjectURL(event.target.files[i]) + "' height='140' width='140'><br>");
-            }
+    <script>
+        $(document).ready(function() {
+            $("#images_product").change(function() {
+                $("#preview-images-product").empty();
+                var total_file1 = document.getElementById("images_product").files.length;
+                for (var i = 0; i < total_file1; i++) {
+                    $("#preview-images-product").append("<img style='margin :10px;' src='" + URL.createObjectURL(event.target.files[i]) + "' height='100' width='100'><br>");
+                }
+            });
         });
-    });
-</script>
+    </script>
 <?= $this->endSection(); ?>

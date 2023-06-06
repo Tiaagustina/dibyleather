@@ -41,6 +41,7 @@ $routes->get('/data-pembayaran', 'Admin\Pembayaran::index', ['filter' => 'role:a
 $routes->get('/data-pembayaran/(:any)', 'Admin\Pembayaran::detail/$1', ['filter' => 'role:admin']);
 $routes->get('/data-transaksi', 'Admin\Transaksi::index', ['filter' => 'role:admin']);
 $routes->get('/data-transaksi/(:any)', 'Admin\Transaksi::detail/$1', ['filter' => 'role:admin']);
+$routes->get('/data-users', 'Admin\Users::index', ['filter' => 'role:admin']);
 
 // Guest
 $routes->get('/', 'Guest\Home::index');
@@ -48,12 +49,14 @@ $routes->get('/beranda', 'Guest\Home::beranda');
 $routes->get('/about', 'Guest\About::index');
 $routes->get('/contact', 'Guest\Contact::index');
 $routes->get('/katalog', 'Guest\Katalog::index');
+$routes->get('/profil', 'Guest\Profil::index');
 $routes->get('/katalog/kategori/(:any)', 'Guest\Katalog::filter/$1');
 $routes->get('/katalog/(:any)', 'Guest\Katalog::detail/$1');
 $routes->get('/keranjang', 'Guest\Keranjang::index', ['filter' => 'role:guest']);
 $routes->get('/checkout', 'Guest\Checkout::index', ['filter' => 'role:guest']);
 $routes->get('/checkout-barang', 'Guest\Checkout::beli', ['filter' => 'role:guest']);
-
+$routes->get('/riwayat', 'Guest\Riwayat::index', ['filter' => 'role:guest']);
+$routes->get('/riwayat/(:any)', 'Guest\Riwayat::detail/$1', ['filter' => 'role:guest']);
 
 
 /*
